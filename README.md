@@ -4,12 +4,12 @@
 
 Adım 1: 
 ```
-git clone https://github.com/YusufDrymz/flutter_firebase_zaim_project.git
+git clone https://github.com/YusufDrymz/Recipe_Flutter_Project.git
 ```
 Adım 2 : 
 
 ```
-cd flutter_firebase_zaim_project/
+cd Recipe_Flutter_Project/
 ```
 Adım 3: 
 ```
