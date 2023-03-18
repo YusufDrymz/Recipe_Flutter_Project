@@ -1,0 +1,48 @@
+name: recipe_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^2.0.2
+  fluttericon: ^2.0.0
+  pin_code_fields: ^7.4.0
+  get: ^4.6.5
+  cached_network_image: ^3.2.3
+  shimmer: ^2.0.0
+  dotted_border: ^2.0.0+3
+  assorted_layout_widgets: ^7.0.0
+  file: ^6.1.4
+  firebase_auth: ^4.2.10
+  firebase_core: ^2.7.1
+  modal_progress_hud_nsn: ^0.3.0
+  google_sign_in: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+  - assets/icons/
+
+  fonts:
+      - family: Inter
+        fonts:
+          - asset: assets/fonts/Inter-Regular.ttf
+          - asset: assets/fonts/Inter-Bold.ttf
+            weight: 700
